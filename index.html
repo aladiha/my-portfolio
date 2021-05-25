@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Aladin Portfolio Website</title>
+            <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+            <link rel="stylesheet" 
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+            integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous">
+
+            <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.gstatic.com">
+            <link href="https://fonts.googleapis.com/css2?family=BioRhyme:wght@600&family=KoHo:wght@200&display=swap" rel="stylesheet">
+            <link href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap" rel="stylesheet">
+
+            <link rel="stylesheet" href="index.css">
+
+        </head>
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="img/logoAl.png" alt="">
+            </div>
+            <button class="nav-toggle" aria-label="toggle navigation">
+                <span class="hamburger"></span>
+            </button>
+            <nav class="nav">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Intruduction -->
+        <section class="intro" id="home">
+            <h1 class="section__title section__title--intro">
+                Hi, I am <strong>Aladin Handoklo</strong>
+            </h1>
+            <p  class="section__subtitle section__subtitle--intro">Junior Software Engineer</p>
+            <img src="img/profile_pic.jpg" alt="a picture of Aladin Handoklo" class="intro__img">
+        </section>
+
+        <!-- My services -->
+        <section class="my-services" id="services">
+            <h2 class="section__title section__title--services">What I do</h2>
+            <div class="services">
+                <div class="service">
+                    <h3>Backend Development</h3>
+                    <p>Develop the server side of web applications and code structures to solve specific tasks. Assist and support in the upkeep and maintenance of Web Applications. building rest APIs with focus on efficient clean code. manage and store data on both SQL and NoSql databases. Fix, troubleshoot and solve bugs and issues.</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>Frontend Development</h3>
+                    <p>Design and build simple and user friendly interfaces, manage API calls to the server side, sending and recieving data efficiently with much focus on readable and reusable code, I mainly focus on react, redux, html, vanilla css and javascript technologies</p>
+                </div> <!-- / service -->
+                
+                <div class="service">
+                    <h3>low level Programming</h3>
+                    <p>Advanced coding skills in C/C++ languages including memory management, operation systems, processes and multithreading, design patterns, smart pointers, bit manipulation, templates and STL containers</p>
+                </div> <!-- / service -->
+            </div><!-- / services -->
+        
+            <a href="#work" class="btn">My Work</a>
+        </section>
+
+        <!-- About me -->
+        <section class="about-me" id="about">
+            <h2 class="section__title section__title--about">Who I am</h2>
+            <p class="section__subtitle section__subtitle--about">Software Engineering Graduate</p>
+            
+            <div class="about-me__body">
+                <h3 style="color: gray;">How I ended up majoring in software engineering?</h3>
+                <p>When i first graduated highschool i had no idea what i wanted to be or what i really love to do, 
+                    my parents wanted me to study civil engineering and since i never knew what i wanted to study i didn't mind,
+                    so in 2015 i started my civil engineering journey which didn't last much, 
+                    in my first year i had this one course where we learn Programming, in C language specificaly, in my eyes that course was different, 
+                    what i realy liked about it that you don't have a set of roles to follow to get the right answer, 
+                    there are several ways to solve a specific problem which needed creative out of the box thinking, and yes as a surprise i got a higher grade than all my other courses.
+                    that day i knew what i love to do and want to be, a software engineer!
+                </p>
+                <p>
+                    so as you might guess after my first year in civil engineering has ended, i moved to software engineering department, and this time i started my real journey!
+                </p>
+                
+                <h3 style="color: gray;">B.Sc in software engineering</h3>
+                <p>graduated my software engineering degree in october 2020 with specilization in cyber security from SCE college of engineering, Beersheba with a GPA of 83.</p>
+                <p>As of my second year at college I worked as a C/C++ mentor to help students who had difficulties understanding Programming in general, specialy first year students.</p>
+
+                <h3 style="color: gray;">Excellenteam C++ / Python programming bootcamp</h3>
+                <p>In october 2020 i was accepted to participate in excellenteam bootcamp, an intensive 15 weeks day-to-day training, where we learned how to write an efficient clean code,
+                     gain industry skills and be prepared for the job market, we also worked on an interesting projects for mobileye and google.</p>
+                
+                <p>I graduated the bootcamp successfuly in january 2021.</p>  
+                <h3 style="color: gray;">Fullstack Time!</h3>
+                <p>As of february 2021 i started to expand my knowlege in web fullstack Development, 
+                    and build side projects on the go, one of these projects is this portfolio website</p>
+            </div>
+            
+            <img src="img/about_section.jpeg" alt="Aladin in newyork halloween time" class="about-me__img">
+        </section>
+            
+        <!-- My Work -->
+        <section class="my-work" id="work">
+            <h2 class="section__title section__title--work">My work</h2>
+            <p class="section__subtitle section__subtitle--work">some of the projects i made</p>
+            
+            <div class="portfolio">
+                <!-- Portfolio item 01 -->
+                <div class="portfolio__item" style="position: relative;">
+                    <div class="portfolio__item--title">
+                        <i class="fas fa-code"></i> Cleaning Services
+                    </div>
+                    <a href="cleaning-services.html">
+                        <img src="img/cleaningservice.png" alt="" class="portfolio__img"></img>
+                    </a>
+                </div>
+                <div class="portfolio__item" style="position: relative;">
+                    <div class="portfolio__item--title">
+                        <i class="fas fa-code"></i> Travel Assisstant
+                    </div>
+                    <a href="cleaning-services.html">
+                        <img src="img/cleaningservice.png" alt="" class="portfolio__img"></img>
+                    </a>
+                </div>
+                <div class="portfolio__item" style="position: relative;">
+                    <div class="portfolio__item--title">
+                        <i class="fas fa-code"></i> Dna Analyzer 
+                    </div>
+                    <a href="cleaning-services.html">
+                        <img src="img/cleaningservice.png" alt="" class="portfolio__img"></img>
+                    </a>
+                </div>
+                
+   
+
+            </div>
+        </section>
+            
+        <!-- Footer -->
+        <footer class="footer">
+            <!-- replace with your own email address -->
+            <a href="mailto:aladin.handuklo@gmail.com" class="footer__link">aladin.handuklo@gmail.com</a>
+            <ul class="social-list">
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://www.linkedin.com/in/aladin-handoklo-74b234140/" target="_blank">
+                        <i class="fab fa-linkedin fa-lg"></i>
+                    </a>
+                </li>
+                <li class="social-list__item">
+                    <a class="social-list__link" href="https://github.com/aladiha" target="_blank">
+                        <i class="fab fa-github fa-lg"></i>
+                    </a>
+                </li>
+            </ul>
+        </footer>
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
